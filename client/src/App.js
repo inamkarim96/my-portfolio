@@ -139,7 +139,7 @@ function App() {
                 <p className="muted">Jun 2023 - Present</p>
               </div>
               <ul>
-                <li>Built cross-platform mobile applications using React Native and Flutter.</li>
+                <li>Built android mobile applications using React Native and Flutter.</li>
                 <li>Automated workflows with Python scripts and Zapier integrations.</li>
                 <li>Designed REST APIs and backend services with Firebase.</li>
               </ul>

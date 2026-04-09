@@ -1,11 +1,10 @@
-# Inam Karim Portfolio (React + Express)
+# Inam Karim Portfolio (Static React)
 
-Portfolio site built with JavaScript, React, Tailwind CSS, Node.js, and Express.
+Portfolio site built with JavaScript, React, and Tailwind CSS.
 
 ## Project structure
 
-- `client/` - React frontend (react-scripts, Tailwind CSS)
-- `server/` - Express backend API
+- `client/` - Static React frontend (react-scripts, Tailwind CSS)
 
 ## Local development
 
@@ -15,7 +14,6 @@ npm run dev
 ```
 
 - Frontend: [http://localhost:3000](http://localhost:3000)
-- Backend: [http://localhost:5000/api/health](http://localhost:5000/api/health)
 
 ## Production build
 
@@ -23,3 +21,15 @@ npm run dev
 npm run build
 npm start
 ```
+
+## Deploy on Vercel
+
+This repo is configured for Vercel with `vercel.json`.
+
+- Frontend deploys from `client/build`
+
+Deploy steps:
+
+1. Push this repo to GitHub.
+2. Import the repo in Vercel.
+3. Click Deploy.
