@@ -64,7 +64,6 @@ function App() {
         <section className="hero section">
           <div className="container hero-grid">
             <div className="hero-content">
-              <p className="eyebrow">Software Developer &amp; Automation Specialist</p>
               <h1>Building practical web and automation solutions.</h1>
               <p className="lead">
                 Full-stack developer focused on clean product experiences, reliable APIs,
@@ -85,7 +84,12 @@ function App() {
                 </li>
                 <li>
                   <a href="https://linkedin.com/in/inamkarim" target="_blank" rel="noreferrer">
-                    linkedin.com/in/inamkarim
+                    LinkedIn
+                  </a>
+                </li>
+                <li>
+                  <a href="https://github.com/inamkarim96" target="_blank" rel="noreferrer">
+                    GitHub
                   </a>
                 </li>
                 <li>
@@ -161,7 +165,7 @@ function App() {
                   with intelligent, actionable feedback.
                 </p>
                 <ul>
-                  
+
                   <li>
                     Engineered custom validation logic to cross-reference usecase diagrams usecase discription and sequence diagrams.
                   </li>
@@ -231,6 +235,9 @@ function App() {
               </a>
               <a className="btn btn-ghost" href="https://linkedin.com/in/inamkarim" target="_blank" rel="noreferrer">
                 LinkedIn
+              </a>
+              <a className="btn btn-ghost" href="https://github.com/inamkarim96" target="_blank" rel="noreferrer">
+                GitHub
               </a>
             </div>
           </div>
