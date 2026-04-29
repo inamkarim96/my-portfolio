@@ -153,8 +153,43 @@ function App() {
 
         <section id="projects" className="section">
           <div className="container">
-            <h2>Selected Project</h2>
+            <h2>Projects</h2>
             <div className="cards">
+
+
+              <article className="card project-card">
+                <div className="project-head">
+                  <div className="flex-between">
+                    <h3>NaturaDry E-Commerce Platform</h3>
+                    <p className="muted">Feb 2026 - Present</p>
+                  </div>
+                  <p className="co-author">Co-developed with <strong><a href="https://shayandanish.vercel.app/" target="_blank" rel="noreferrer" className="co-author-link">Shayan Danish</a></strong></p>
+                </div>
+                <p>
+                  A full-stack commercial platform for organic products,
+                  featuring a responsive design.
+                </p>
+                <ul>
+                  <li>
+                    Developed a custom UI library using React, Framer Motion and Tailwind CSS,
+                    standardizing components like Modals, Cards, and Inputs.
+                  </li>
+                  <li>
+                    Architected a responsive, dual-interface system with a customer-facing shop
+                    and an admin dashboard.
+                  </li>
+                  <li>
+                    Implemented server-side logic using Express.js and Prisma (PostgreSQL)
+                    to handle product variants and real-time stock management.
+                  </li>
+                </ul>
+                <p className="project-links">
+                  <a href="https://naturadry.vercel.app/" target="_blank" rel="noreferrer">
+                    Live Demo
+                  </a>
+                </p>
+              </article>
+
               <article className="card project-card">
                 <div className="project-head">
                   <h3>UMLTutor Web Application</h3>
@@ -165,7 +200,6 @@ function App() {
                   with intelligent, actionable feedback.
                 </p>
                 <ul>
-
                   <li>
                     Engineered custom validation logic to cross-reference usecase diagrams usecase discription and sequence diagrams.
                   </li>
@@ -212,10 +246,10 @@ function App() {
                 <h3>Tools</h3>
                 <ul>
                   <li>JavaScript, Node.js, Express</li>
-                  <li>React, Tailwind CSS</li>
-                  <li>Firebase</li>
-                  <li>Git, GitHub, Docker</li>
-                  <li>MongoDB, PostgreSQL, Vercel</li>
+                  <li>React, Tailwind CSS, Framer Motion</li>
+                  <li>Prisma, PostgreSQL, MongoDB</li>
+                  <li>Firebase, Cloudinary, JWT</li>
+                  <li>Git, GitHub, Docker, Vercel</li>
                 </ul>
               </article>
             </div>

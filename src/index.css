@@ -280,6 +280,36 @@ li {
   margin-top: 1rem;
 }
 
+.flex-between {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: baseline;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.co-author {
+  margin-top: 0.1rem;
+  margin-bottom: 0.5rem;
+  font-size: 0.9rem;
+  color: var(--muted);
+  width: 100%;
+}
+
+.co-author-link {
+  color: inherit;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  text-decoration-color: var(--border);
+  transition: all 0.2s ease;
+}
+
+.co-author-link:hover {
+  color: var(--primary);
+  text-decoration-color: var(--primary);
+}
+
 .contact-card {
   background: var(--surface);
   border: 1px solid var(--border);
